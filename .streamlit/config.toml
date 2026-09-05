@@ -1,0 +1,13 @@
+[theme]
+primaryColor="#6366F1"
+backgroundColor="#0E1117"
+secondaryBackgroundColor="#161A23"
+textColor="#FAFAFA"
+font="sans serif"
+st.caption("Planner-based autonomous research powered by local LLMs.")
+col1, col2, col3 = st.columns(3)
+
+col1.metric("Model", "Mistral")
+col2.metric("Search Engine", "DDGS")
+col3.metric("Mode", "Autonomous")
+st.caption("Agent Architecture: Planner → Tools → Reasoning → Report")
